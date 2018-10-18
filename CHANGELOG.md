@@ -1,3 +1,2 @@
 ## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+* Set up Andika font for basic use. [#1]
