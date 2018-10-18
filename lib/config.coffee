@@ -5,13 +5,14 @@ module.exports =
       type: 'object'
       properties:
         scopes:
-          name: 'Use monospace font set in Editor preferences for these CSS scopes'
+          title: 'Use monospace font for these CSS scopes'
           description: 'Include the `syntax--` prefix and separate selectors with commas'
           type: 'array'
           default: ['.syntax--table']
           items:
             type: 'string'
         fontSizePercent:
+          title: 'Font Size Percentage'
           description: 'Size of monospaced font, expressed as a percentage relative to Andika'
           type: 'number'
           default: 100
