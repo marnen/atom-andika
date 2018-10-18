@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle andika",
+        "command": "andika:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "andika",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "andika:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
