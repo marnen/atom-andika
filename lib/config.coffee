@@ -78,3 +78,13 @@ module.exports =
             {value: false, description: 'Closed'}
             {value: true, description: 'Open'}
           ]
+        straight69:
+          order: 6
+          title: 'Straight 6 and 9'
+          description: "#{demoSpan '69', className: 'curved-6-9'} curved or #{demoSpan '69', className: 'straight-6-9'} straight"
+          type: 'boolean'
+          default: false
+          enum: [
+            {value: false, description: 'Curved'}
+            {value: true, description: 'Straight'}
+          ]
