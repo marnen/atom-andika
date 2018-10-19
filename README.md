@@ -20,6 +20,8 @@ All customization is done in the package's settings pane.
 
 Andika is a proportionally spaced font, and so it won't work well in space-aligned tabular contexts. Therefore, the package will use the (presumably monospaced) font you've chosen in your editor preferences for these contexts. You can choose which scopes are displayed in monospace, as well as the size of the monospaced font.
 
+![[Sample of monospaced table]](monospace.png)
+
 ### Font Features
 
 Through the magic of OpenType, Andika allows you to tweak the appearance of many letters and digits. The Font Features properties in the settings pane control these parameters.
