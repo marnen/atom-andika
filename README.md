@@ -2,9 +2,11 @@
 
 This package makes it easier to use the lovely [Andika](https://software.sil.org/andika) font with Atom. Andika is a _proportionally spaced_ font developed by [SIL International](https://www.sil.org/), with a design that takes the needs of beginning readers into account by disambiguating similar letterforms. This also makes it nice for reading source code!
 
-In addition, Andika contains many OpenType features to customize the look of the font, and this package's settings pane provides access to many of those features.
+![[Screenshot of code in Andika font]](code.png)
 
-Screenshots coming soon!
+In addition, Andika contains [many OpenType features](https://software.sil.org/wp-content/uploads/sites/19/2015/12/Andika-features5.000.pdf) to customize the look of the font, and this package's settings pane provides access to some of those features.
+
+![[Comparison of different letter styles]](features.png)
 
 ## Usage
 
@@ -17,6 +19,8 @@ All customization is done in the package's settings pane.
 ### Monospace
 
 Andika is a proportionally spaced font, and so it won't work well in space-aligned tabular contexts. Therefore, the package will use the (presumably monospaced) font you've chosen in your editor preferences for these contexts. You can choose which scopes are displayed in monospace, as well as the size of the monospaced font.
+
+![[Sample of monospaced table]](monospace.png)
 
 ### Font Features
 
