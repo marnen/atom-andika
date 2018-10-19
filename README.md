@@ -2,6 +2,8 @@
 
 This package makes it easier to use the lovely [Andika](https://software.sil.org/andika) font with Atom. Andika is a _proportionally spaced_ font developed by [SIL International](https://www.sil.org/), with a design that takes the needs of beginning readers into account by disambiguating similar letterforms. This also makes it nice for reading source code!
 
+![[Screenshot of code in Andika font]](code.png)
+
 In addition, Andika contains many OpenType features to customize the look of the font, and this package's settings pane provides access to many of those features.
 
 Screenshots coming soon!
