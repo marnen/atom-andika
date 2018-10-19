@@ -1,3 +1,6 @@
+demoSpan = (content, {className}) ->
+  "<span class='andika demo #{className}'>#{content}</span>"
+
 module.exports =
   config:
     monospace:
@@ -27,11 +30,21 @@ module.exports =
       properties:
         doubleStoreyAG:
           order: 1
-          title: 'a and g'
-          description: '<span class="andika demo single-storey">ag</span>  single-storey or <span class="andika demo double-storey">ag</span>  double-storey'
+          title: 'lowercase a and g'
+          description: "#{demoSpan 'ag', className: 'single-storey'} single-storey or #{demoSpan 'ag', className: 'double-storey'} double-storey"
           type: 'boolean'
           default: false
           enum: [
             {value: false, description: 'Single-storey'}
             {value: true, description: 'Double-storey'}
+          ]
+        straightT:
+          order: 2
+          title: 'lowercase t'
+          description: "#{demoSpan 't', className: 'curved-t'} curved or #{demoSpan 't', className: 'straight-t'} straight"
+          type: 'boolean'
+          default: false
+          enum: [
+            {value: false, description: 'Curved'}
+            {value: true, description: 'Straight'}
           ]
