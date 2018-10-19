@@ -6,6 +6,8 @@ This package makes it easier to use the lovely [Andika](https://software.sil.org
 
 In addition, Andika contains [many OpenType features](https://software.sil.org/wp-content/uploads/sites/19/2015/12/Andika-features5.000.pdf) to customize the look of the font, and this package's settings pane provides access to some of those features.
 
+![[Comparison of different letter styles]](features.png)
+
 ## Usage
 
 Install the Andika package. This will automatically install the font and set it in your editor. You can use it as is, or customize it further in the settings pane.
