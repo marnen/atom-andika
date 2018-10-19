@@ -1,3 +1,5 @@
+@import 'ui-variables';
+
 @font-face {
   font-family: Andika;
   font-weight: normal;
@@ -5,6 +7,41 @@
   src: url('atom://andika/resources/Andika-5.000/Andika-R.ttf');
 }
 
-atom-text-editor {
+.andika() {
   font-family: Andika;
+}
+
+.feature(@feature, @value: 1) {
+  -webkit-font-feature-settings: @feature @value;
+}
+
+atom-text-editor {
+  .andika();
+}
+
+.setting-description .andika.demo {
+  .andika();
+  font-size: 150%;
+  color: @text-color-highlight;
+
+  &.single-storey { .feature("ss01", 0) }
+  &.double-storey { .feature("ss01", 1) }
+
+  &.curved-t { .feature("cv56", 0) }
+  &.straight-t { .feature("cv56", 1) }
+
+  &.slashed-0 { .feature("cv10", 1) }
+  &.plain-0 { .feature("cv10", 0) }
+
+  &.base-1 { .feature("cv01", 0) }
+  &.no-base-1 { .feature("cv01", 1) }
+
+  &.closed-4 { .feature("cv04", 0) }
+  &.open-4 { .feature("cv04", 1) }
+
+  &.curved-6-9 { .feature("cv06", 0) }
+  &.straight-6-9 { .feature("cv06", 1) }
+
+  &.plain-7 { .feature("cv07", 0) }
+  &.crossed-7 { .feature("cv07", 1) }
 }
