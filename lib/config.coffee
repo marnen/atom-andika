@@ -88,3 +88,13 @@ module.exports =
             {value: false, description: 'Curved'}
             {value: true, description: 'Straight'}
           ]
+        crossed7:
+          order: 7
+          title: 'Crossed 7'
+          description: "#{demoSpan '7', className: 'plain-7'} plain or #{demoSpan '7', className: 'crossed-7'} crossed"
+          type: 'boolean'
+          default: false
+          enum: [
+            {value: false, description: 'Plain'}
+            {value: true, description: 'Crossed'}
+          ]
