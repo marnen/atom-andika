@@ -1,7 +1,7 @@
 {
   "name": "andika",
   "main": "./lib/andika",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Use the Andika font easily with Atom",
   "keywords": [
   ],

@@ -1,4 +1,4 @@
-## Unreleased
+## 0.1.1 - 2018-10-19
   * Add screenshots to README. [#5]
 
 ## 0.1.0 - First Release
