@@ -4,7 +4,7 @@ This package makes it easier to use the lovely [Andika](https://software.sil.org
 
 ![[Screenshot of code in Andika font]](code.png)
 
-In addition, Andika contains many OpenType features to customize the look of the font, and this package's settings pane provides access to many of those features.
+In addition, Andika contains [many OpenType features](https://software.sil.org/wp-content/uploads/sites/19/2015/12/Andika-features5.000.pdf) to customize the look of the font, and this package's settings pane provides access to some of those features.
 
 Screenshots coming soon!
 
