@@ -68,3 +68,13 @@ module.exports =
             {value: true, description: 'Base'}
             {value: false, description: 'No base'}
           ]
+        open4:
+          order: 5
+          title: 'Open 4'
+          description: "#{demoSpan '4', className: 'closed-4'} closed or #{demoSpan '4', className: 'open-4'} open"
+          type: 'boolean'
+          default: false
+          enum: [
+            {value: false, description: 'Closed'}
+            {value: true, description: 'Open'}
+          ]
