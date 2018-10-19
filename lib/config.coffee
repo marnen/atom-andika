@@ -30,7 +30,7 @@ module.exports =
       properties:
         doubleStoreyAG:
           order: 1
-          title: 'lowercase a and g'
+          title: 'Lowercase a and g'
           description: "#{demoSpan 'ag', className: 'single-storey'} single-storey or #{demoSpan 'ag', className: 'double-storey'} double-storey"
           type: 'boolean'
           default: false
@@ -40,7 +40,7 @@ module.exports =
           ]
         straightT:
           order: 2
-          title: 'lowercase t'
+          title: 'Lowercase t'
           description: "#{demoSpan 't', className: 'curved-t'} curved or #{demoSpan 't', className: 'straight-t'} straight"
           type: 'boolean'
           default: false
