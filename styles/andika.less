@@ -1,3 +1,5 @@
+@import 'ui-variables';
+
 @font-face {
   font-family: Andika;
   font-weight: normal;
@@ -5,6 +7,23 @@
   src: url('atom://andika/resources/Andika-5.000/Andika-R.ttf');
 }
 
-atom-text-editor {
+.andika() {
   font-family: Andika;
+}
+
+.feature(@feature, @value: 1) {
+  -webkit-font-feature-settings: @feature @value;
+}
+
+atom-text-editor {
+  .andika();
+}
+
+.setting-description .andika.demo {
+  .andika();
+  font-size: 150%;
+  color: @text-color-highlight;
+
+  &.single-storey { .feature("ss01", 0) }
+  &.double-storey { .feature("ss01", 1) }
 }
