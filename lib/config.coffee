@@ -58,3 +58,13 @@ module.exports =
             {value: true, description: 'Slash'}
             {value: false, description: 'No slash'}
           ]
+        base1:
+          order: 4
+          title: 'Base on 1'
+          description: "#{demoSpan '1', className: 'base-1'} base or #{demoSpan '1', className: 'no-base-1'} no base"
+          type: 'boolean'
+          default: true
+          enum: [
+            {value: true, description: 'Base'}
+            {value: false, description: 'No base'}
+          ]
