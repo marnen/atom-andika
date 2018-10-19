@@ -48,3 +48,13 @@ module.exports =
             {value: false, description: 'Curved'}
             {value: true, description: 'Straight'}
           ]
+        slashed0:
+          order: 3
+          title: 'Slashed 0'
+          description: "#{demoSpan '0', className: 'slashed-0'} slash or #{demoSpan '0', className: 'plain-0'} no slash"
+          type: 'boolean'
+          default: true
+          enum: [
+            {value: true, description: 'Slash'}
+            {value: false, description: 'No slash'}
+          ]
