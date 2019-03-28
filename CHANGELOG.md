@@ -1,4 +1,4 @@
-## Unreleased
+## 0.1.2 - 2019-03-28
   * Fix a typo in README.
 
 ## 0.1.1 - 2018-10-19
