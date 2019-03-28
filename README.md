@@ -28,6 +28,6 @@ Through the magic of OpenType, Andika allows you to tweak the appearance of many
 
 ## License
 
-Andika is distributed under the SIL Open Font License 1.1, which can be found at resources/Andika-5.000/OFL.txt in this repository or at https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web. More information is availabe at https://scripts.sil.org/OFL.
+Andika is distributed under the SIL Open Font License 1.1, which can be found at resources/Andika-5.000/OFL.txt in this repository or at https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web. More information is available at https://scripts.sil.org/OFL.
 
 The package as a whole is distributed under the [MIT License](https://opensource.org/licenses/MIT), as seen at LICENSE.md. Portions of it are based on the wonderful [Atom fonts package](https://github.com/braver/fonts) by Koen Lageveen.
